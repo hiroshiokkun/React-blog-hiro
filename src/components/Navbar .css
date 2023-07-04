@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(183, 132, 29);
+  gap: 45px;
+  height: auto;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: all 0.5s;
+  border: thick double aliceblue;
+  border-radius: 12px;
+  padding: 4px 12px;
+  margin: 8px 0px;
+}
+nav a:hover {
+  border: thick double #3c3c3c;
+  color: #3c3c3c;
+  rotate: 1 -1 1 360deg;
+
+  border: thick double #3c3c3c;
+}
+nav a svg {
+  margin-right: 5px;
+}
